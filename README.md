@@ -1,5 +1,7 @@
 # Warp Cloner
 
+> Warp Cloner is discontinued due to latest announce of Cloudflare - [see here](https://support.cloudflarewarp.com/hc/en-us/articles/360025588054-How-do-referrals-work). Thanks to all of you to supporting this project.
+
 ![warp-cloner](https://socialify.git.ci/totoroterror/warp-cloner/image?font=Raleway&language=1&name=1&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Light)
 
 Simple Python script that can clone [Warp Plus](https://1.1.1.1/) keys.
