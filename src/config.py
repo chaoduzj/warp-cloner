@@ -4,22 +4,22 @@ from pydantic_settings import (
     SettingsConfigDict,
 )
 
-class Settings(BaseSettings):
+class 设置(BaseSettings):
     model_config =  SettingsConfigDict(env_file='.env', env_file_encoding='utf-8')
 
     BASE_KEYS: list[str] = Field(
         validation_alias='BASE_KEYS',
         default=[
-            'W32Zg5F7-V92mt68f-1dep203B',
-            'ka3E672R-1574KThz-nM40Jh15',
-            'L4or30z8-MA6w1y30-r0GP8f52',
-            '1r2JN79T-b1vm364s-B79N3g4l',
-            '9Z84YMf1-Ci731e5K-743NlOZ0',
-            'X3ZY91n5-S0at385w-170NF2ge',
-            'd9vT20K5-RL6I08W1-0X1zM48S',
-            '3fwe4E78-4ua83qA7-kP061T4t',
-            'm1Jdh478-1h63O5fo-1i8QR07U',
-            '5hD6f0W8-Xz08g43W-w43F1Ug2',
+            'CQr753G0-L7Jm6j51-3N1Uw7j9',
+            '6hFkP924-56Ys1Gm9-84xF1QP3',
+            'bZ3iI986-XsD3F960-xn9ie201',
+            '08Otin43-6U52C0fD-0Td26hi5',
+            'F79fE1U3-Y9K074kj-R320xW6u',
+            '90H8x7ZN-GNq754r2-25r9wn1Q',
+            'T5C9l87B-q7af86n1-62S0R5kq',
+            'M61V30UC-W4Q03nR7-Y5T2nb74',
+            '71B4JF5r-vEmY6570-47w85QcJ',
+            'm5x67hV4-3W4t7FJ8-2O4ZJ6r7',
         ]
     )
     THREADS_COUNT: int = Field(validation_alias='THREADS_COUNT', default=1)
@@ -34,3 +34,4 @@ class Settings(BaseSettings):
 
 
 config = Settings()
+
